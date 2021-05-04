@@ -1,0 +1,19 @@
+#post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 36%;
+  margin: auto;
+  border-radius: 20px;
+  border: 2px groove #ccd1d1aa;
+  box-shadow: 1px 3px 4px black;
+  padding: 12px 30px;
+}
+
+.museum img {
+  width: 200px;
+  height: 200px;
+  margin: 6px;
+  border: 8px maroon groove;
+}

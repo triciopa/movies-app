@@ -1,0 +1,60 @@
+.favs {
+  margin-right: 30px;
+}
+
+.favs ul {
+  list-style-type: none;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.favs li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 4px solid #ca6f1e;
+  background-color: #f5b041aa;
+  padding-top: 10px;
+  width: 30vh;
+  height: fit-content;
+  border-radius: 8px;
+  font-weight: bolder;
+  color: #ca6f1e;
+  margin: 10px;
+}
+
+.favs li button {
+  padding: 10px 14px;
+  color: whitesmoke;
+  margin: 15px auto;
+  max-width: fit-content;
+  font-family: monospace;
+  border-radius: 20px;
+  background-color: red;
+}
+
+hr {
+  width: 60%;
+  height: 6px;
+  margin: 30px auto;
+  background-image: linear-gradient(
+    90deg,
+    white,
+    #5d6d7e,
+    #5d6d7e,
+    #17202a,
+    #17202a,
+    #273746,
+    #273746,
+    #273746,
+    #273746,
+    #5d6d7e,
+    white
+  );
+  border: none;
+}
